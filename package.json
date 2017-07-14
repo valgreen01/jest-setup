@@ -1,0 +1,38 @@
+{
+  "name": "jest-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 70,
+        "functions": 60,
+        "lines": 70,
+        "statements": 70
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valgreen01/jest-setup.git"
+  },
+  "keywords": [],
+  "author": "Aldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valgreen01/jest-setup/issues"
+  },
+  "homepage": "https://github.com/valgreen01/jest-setup#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
